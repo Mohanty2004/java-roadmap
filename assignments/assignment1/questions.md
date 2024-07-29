@@ -35,3 +35,8 @@
     System.out.println(c);
 
 ```
+
+6. What is the difference between a variable and a constant in Java? Provide an
+   example of each.
+7. Explain the difference between the == operator and the = operator in Java.
+   Provide an example for each.
