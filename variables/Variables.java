@@ -25,8 +25,10 @@ public class Variables {
         System.out.println(d);
         System.out.println(f);
         System.out.println(g);
+        System.out.println(l);
 
         char h = '\n'; // escape sequences are combined as a character.
+        //'4' is also a character
         System.out.println(h);
     }
 }
