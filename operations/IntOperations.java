@@ -94,5 +94,32 @@ public class IntOperations {
         System.out.println(c-- - c--);// 1
         System.out.println(c);// 8
 
+        // Bitwise Operator
+        /*
+         * variable << <n> shifts n bit to the left
+         * variable >> <n> shifts n bit to the right
+         * variable & variable does bitwise and
+         * variable | variable bit wise or
+         * variable ^ variable bit wise xor
+         * variable ~ bitwise not
+         * 
+         */
+        c = 5;// 0000000000000000000000000000101
+        // 1111111111111111111111111111010
+        System.out.println(c << 1);// 1010
+        System.out.println(c >> 2);// 1
+        System.out.println(a);// 101
+        System.out.println(b);// 011
+        System.out.println(a & b);// 001
+        System.out.println(a | b);// 111
+        System.out.println(a ^ b);// 110
+        System.out.println(~a);// 2's complement
+
+        // Ternary operator
+        // condition ? value if true : value if false
+
+        int e = true ? 1 : 2;
+        System.out.println(e);
+
     }
 }
