@@ -3,7 +3,7 @@ public class Qn_3 {
         int a = 100;
         int b = 25;
         int c = 7;
-        
+        //using nested if
 
         if (a > b) {
             if (a >c) {
