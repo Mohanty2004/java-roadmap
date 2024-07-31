@@ -4,19 +4,19 @@ public class Qn_2 {
         int b = 6;
         char c = '/';
         switch (c) {
-            case '+':
+            case '+' ->
                 System.out.println(a + b);
-                break;
-            case '-':
+
+            case '-' ->
                 System.out.println(a - b);
-                break;
-            case '*':
+
+            case '*' ->
                 System.out.println(a * b);
-                break;
-            case '/':
+
+            case '/' ->
                 System.out.println(a / b);
-                break;
-            default:
+
+            default ->
                 System.out.println("invalid character");
 
         }
