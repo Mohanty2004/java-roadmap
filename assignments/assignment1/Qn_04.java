@@ -6,8 +6,16 @@ public class Qn_04 {
               short c = 1352;
               long d = 9439485166l;
               float e = 9439.485166f;
-              byte age;
+              byte age = 29;
               boolean f = true;
+
+              System.out.println(a);
+              System.out.println(b);
+              System.out.println(c);
+              System.out.println(d);
+              System.out.println(e);
+              System.out.println(age);
+              System.out.println(f);
        }
 }
 
