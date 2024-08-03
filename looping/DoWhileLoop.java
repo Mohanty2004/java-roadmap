@@ -43,5 +43,63 @@ public class DoWhileLoop {
         // System.out.print(i % 2 == 0 ? i + "\n" : "");
         // i++;
         // } while (i < 10);
+
+        // write a program to findout the sum of digits of a number...
+        // first we have to take a number..
+        // take variable equal to 0..
+        // int n = 2344;
+        // int sum = 0;
+        // do {
+        // int Lastdigit = n % 10;
+        // sum += Lastdigit;
+        // n /= 10;
+
+        // } while (n != 0);
+        // System.out.println(sum);
+
+        // int n = 1674;
+        // int rev = 0;
+        // do {
+        // int lastdigit = n % 10;
+        // rev *= 10;
+        // rev += lastdigit;
+        // n /= 10;
+        // } while (n != 0);
+        // System.out.println(rev);
+
+        // fibonacci series....
+        // int a = 0;
+        // int b = 1;
+        // int n = 0;
+        // int c;
+        // System.out.print("fibonacci series " + a + " " + b);
+        // do {
+        // c = a + b;
+        // a = b;
+        // b = c;
+        // n++;
+        // System.out.print(" " + c);
+        // } while (n<=2);
+
+        // prime number check
+        int x = 15;
+        int i = 2;
+        boolean prime = true;
+        int y;
+        do {
+            y = x % i;
+            if (y == 0) {
+                prime = false;
+                System.out.println(i);
+                break;
+                
+            } else {
+                
+                i++;
+            }
+            
+        } while (i < x);
+        
+        System.out.println(prime);
     }
 }
