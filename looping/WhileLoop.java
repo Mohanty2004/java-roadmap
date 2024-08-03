@@ -73,18 +73,21 @@ public class WhileLoop {
         // System.out.println(prime);
 
         // Qn 5:-fibonacci series...0,1,1,2,3,5,8,13,21,.....
-        int n = 0;
-        int a = 0;
-        int b = 1;
-        int c;
-        System.out.print("fibonacci series  : " +a+ " "+ b);
-        while (n < 8) {
-            c = a + b;
-            a = b;
-            b = c;
-            n++;
-           System.out.print(" "+c);
-        }
+        // int n = 0;
+        // int a = 0;
+        // int b = 1;
+        // int c;
+        // System.out.print("fibonacci series : " +a+ " "+ b);
+        // while (n < 8) {
+        // c = a + b;
+        // a = b;
+        // b = c;
+        // n++;
+        // System.out.print(" "+c);
+        // }
+        int i = 0;
+        while (i < 10)
+            ;
 
     }
 
