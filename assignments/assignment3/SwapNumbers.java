@@ -12,7 +12,9 @@ public class SwapNumbers {
         System.out.println("a : " + a);
         System.out.println("b : " + b);
         // write code below
-
+        a = a + b;// a=7
+        b = a - b;// b=4
+        a = a - b;
         // write code above
         System.out.println("After swap");
         System.out.println("a : " + a);

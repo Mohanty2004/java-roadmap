@@ -11,6 +11,12 @@ public class EvenOrOdd {
         int a = new Random().nextInt(100);
         boolean isEven = true;
         // write code below
+        if (a%2==0) {
+
+            
+        } else {
+            isEven=false;
+        }
 
         // write code above
         System.out.println(a + " is " + (isEven ? "even" : "odd"));

@@ -27,7 +27,7 @@ public class WhileLoop {
         // System.out.println(n);// 11
 
         // Q2.Write a program that calculates the sum of the digits of a given number.
-        // int n = 1356;
+        int n = 1356;
 
         // initialize a variable named sum with 0
         // repetitively get the last digit from the number and add it to sum
@@ -35,11 +35,11 @@ public class WhileLoop {
         // update the number by dividing with 10
         // int sum = 0;
         // while (n != 0) {
-        // int lastDigit = n % 10;
-        // // System.out.println("Value of n: " + n + "\tValue of lastDigit: " +
-        // // lastDigit);
-        // sum += lastDigit;
-        // n /= 10;
+        //     int lastDigit = n % 10;
+        //     System.out.println("Value of n: " + n + "\tValue of lastDigit: " +
+        //     lastDigit);
+        //     sum += lastDigit;
+        //     n /= 10;
         // }
         // System.out.println(sum);
 

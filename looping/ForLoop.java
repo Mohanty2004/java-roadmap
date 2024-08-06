@@ -62,13 +62,13 @@ public class ForLoop {
         // sum of digits of number
         // int n = 1234;
         // int sum = 0;
-        // // for (; n != 0; n /= 10) {
-        // // int reminder = n % 10;
-        // // sum += reminder;
-        // // }
+        // for (; n != 0; n /= 10) {
+        //     int reminder = n % 10;
+        //     sum += reminder;
+        // }
         // for (; n != 0; n /= 10)
         // sum += n % 10;
-        // System.out.println(sum);
+       // System.out.println(sum);
 
         // reverse a number
         // int n = 1234;
@@ -91,7 +91,7 @@ public class ForLoop {
         // System.out.println(newCur);
         // }
 
-        // check number is prime or not
+        // // check number is prime or not
         // int x = 19;
         // boolean isPrime = true;
         // for (int i = 2; i < x; i++) {
@@ -101,6 +101,15 @@ public class ForLoop {
         // }
         // }
         // System.out.println(isPrime);
+
+        // multiplication table of 5
+        // int n = 5;
+        // int i = 1;
+        // for (; i < 11; i++) {
+        // System.out.println("5 x " + i + " = " + n * i);
+
+        // }
+
     }
 
 }

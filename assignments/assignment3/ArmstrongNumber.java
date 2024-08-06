@@ -8,10 +8,19 @@ public class ArmstrongNumber {
          * 'Armstrong Number'
          * 
          */
-        int a = 407;
+        int a = 11;
         boolean isArmstrong = true;
         // write code below
+        int sum = 0;
+        while (a != 0) {
+            int lastdigit = a % 10;
+            int cube = lastdigit * lastdigit * lastdigit;
+            sum += cube;
+            int n =a;
+            n /= 10;
 
+        }
+        System.out.println(sum);
         // write code above
         System.out.println(a + " is " + (isArmstrong ? "armstrong number" : "not armstrong number"));
     }
