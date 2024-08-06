@@ -10,7 +10,7 @@ public class CheckPrime {
         for (int i = 2; i < a; i++) {
             if (a % i == 0) {
                 isPrime = false;
-
+                break;
             }
 
         }

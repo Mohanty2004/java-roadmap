@@ -15,6 +15,10 @@ public class SwapNumbers {
         a = a + b;// a=7
         b = a - b;// b=4
         a = a - b;
+
+        // int temp = a;
+        // a = b;
+        // b = temp;
         // write code above
         System.out.println("After swap");
         System.out.println("a : " + a);
