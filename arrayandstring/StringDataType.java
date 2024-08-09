@@ -32,9 +32,14 @@ public class StringDataType {
         // length
         // System.out.println(s.length());
 
-        for (int i = 0; i < s.length(); i++) {
-            System.out.println(s.charAt(i));
-        }
-
+        // for (int i = 0; i < s.length(); i++) {
+        //     System.out.println(s.charAt(i));
+        // }
+        String a="abcde";
+        String b="abcde";
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(a==b);
+        System.out.println(a.equals(b));
     }
 }
