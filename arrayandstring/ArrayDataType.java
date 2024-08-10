@@ -63,6 +63,52 @@ public class ArrayDataType {
 
         // next level take an array and make it's elements twice if odd else make them
         // half
-        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        // int[] arr = { 1,2,3,4,5,6,7,8,9,10 };
+        // // 2,1,6,2,10,3,14,4,18,5
+        // for (int i = 0; i < arr.length; i++) {
+        // if (arr[i] % 2 == 0) {
+        // arr[i] /= 2;
+        // } else {
+        // arr[i] *= 2;
+        // }
+        // System.out.println(arr[i]);
+
+        int n = 10;
+        int evenarr;
+        int oddarr;
+        if (n % 2 == 0) {
+            evenarr = (n / 2) + 1;
+            oddarr = n / 2;
+
+        } else {
+            evenarr = (n + 1) / 2;
+            oddarr = (n + 1) / 2;
+
+        }
+        int arr1[] = new int[evenarr];
+        int arr2[] = new int[oddarr];
+
+        int evenCounter = 0;
+        int oddCounter = 0;
+        for (int i = 0; i <= arr2.length; i++) {
+            if (i % 2 == 0) {
+                arr1[evenCounter] = i;
+                evenCounter += 1;
+            } else {
+                arr2[oddCounter] = i;
+                oddCounter += 1;
+            }
+
+        }
+        System.out.println(arr1);
+        System.out.println(arr2);
+        for (int element : arr1) {
+            System.out.println(element);
+
+        }
+        for (int element : arr2) {
+            System.out.println(element);
+
+        }
     }
 }
