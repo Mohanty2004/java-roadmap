@@ -73,42 +73,40 @@ public class ArrayDataType {
         // }
         // System.out.println(arr[i]);
 
-        int n = 10;
-        int evenarr;
-        int oddarr;
+        int n = 17;
+        int evenArrSize;
+        int oddArrSize;
         if (n % 2 == 0) {
-            evenarr = (n / 2) + 1;
-            oddarr = n / 2;
+            evenArrSize = (n / 2) + 1;
+            oddArrSize = n / 2;
 
         } else {
-            evenarr = (n + 1) / 2;
-            oddarr = (n + 1) / 2;
+            evenArrSize = (n + 1) / 2;
+            oddArrSize = (n + 1) / 2;
 
         }
-        int arr1[] = new int[evenarr];
-        int arr2[] = new int[oddarr];
+        int evenArray[] = new int[evenArrSize];
+        int oddArray[] = new int[oddArrSize];
 
         int evenCounter = 0;
         int oddCounter = 0;
-        for (int i = 0; i <= arr2.length; i++) {
+        for (int i = 0; i <= n; i++) {
             if (i % 2 == 0) {
-                arr1[evenCounter] = i;
+                evenArray[evenCounter] = i;
                 evenCounter += 1;
             } else {
-                arr2[oddCounter] = i;
+                oddArray[oddCounter] = i;
                 oddCounter += 1;
             }
 
         }
-        System.out.println(arr1);
-        System.out.println(arr2);
-        for (int element : arr1) {
-            System.out.println(element);
 
+        for (int a : evenArray) {
+            System.out.print(a + "\t");
         }
-        for (int element : arr2) {
-            System.out.println(element);
-
+        System.out.println();
+        for (int element : oddArray) {
+            System.out.print(element + "\t");
         }
     }
 }
