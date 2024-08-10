@@ -14,7 +14,7 @@ public class ArrayDataType {
         // int arr[];
 
         // how arrays can be initialized
-        int[] arr = { 1, 2, 3, 4, 5 };
+        // int[] arr = { 1, 2, 3, 4, 5 };
         // int[] arr = new int[5];
         // int n = 5;
         // int[] arr = new int[n];
@@ -36,6 +36,7 @@ public class ArrayDataType {
 
         // iteration
         // for (int i = 0; i < arr.length; i++) {
+        // // System.out.println(i);
         // System.out.println(arr[i]);
         // }
 
@@ -44,16 +45,24 @@ public class ArrayDataType {
         // System.out.println(element);
         // }
 
-        // multidimensional array...
-        int[][] nums = new int[3][4];// there is a big array which contain 3 internal arrays
-                                     // and each array has 4 diff. elements
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.print(nums[i][j] + " ");
-            }
+        // System.out.println("_______________");
+        // arr[2] = 6;
+        // for (int i : arr) {
+        // System.out.println(i);
+        // }
 
-            System.out.println();
-        }
+        // Take an array and make it's elements twice of it
+        // int[] arr = { 1, 2, 3, 4, 5 };
+        // for (int i = 0; i < arr.length; i++) {
+        // arr[i] *= 2;
+        // }
 
+        // for (int i : arr) {
+        // System.out.println(i);
+        // }
+
+        // next level take an array and make it's elements twice if odd else make them
+        // half
+        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     }
 }
