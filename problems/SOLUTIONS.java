@@ -197,15 +197,15 @@ public class SOLUTIONS {
     // System.out.println(sum);
     // sc.close();
 
-    // 20.largest element in the array...
-    int arr[] = { 1, 2, 30, 444,22 };
-    int largest = arr[0];
-    for (int i = 1; i < arr.length; i++) {
-      if (arr[i] > largest) {
-        largest = arr[i];
-      }
-    }
-    System.out.println("largest element is " + largest);
+    // // 20.largest element in the array...
+    // int arr[] = { 1, 2, 30, 444,22 };
+    // int largest = arr[0];
+    // for (int i = 1; i < arr.length; i++) {
+    //   if (arr[i] > largest) {
+    //     largest = arr[i];
+    //   }
+    // }
+    // System.out.println("largest element is " + largest);
   }
 
 }
