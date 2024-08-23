@@ -85,9 +85,9 @@ public class WhileLoop {
         // n++;
         // System.out.print(" "+c);
         // }
-        // int i = 0;
-        // while (i < 10)
-        //     ;
+        int i = 0;
+        while (i < 10)
+            ;
 
     }
 
