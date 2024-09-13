@@ -30,7 +30,7 @@ public class ArrayDataType {
         // System.out.println(arr.length);
 
         // print raw array
-        // System.out.println(arr);
+        //System.out.println(arr);
 
         // traveling each element of a collection is called iteration or traversal
 

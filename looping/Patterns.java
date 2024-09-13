@@ -1,6 +1,6 @@
 import java.util.*;;
 
-public class Pattens {
+public class Patterns {
 
     /*
      * RULES for solving pattern problems:
