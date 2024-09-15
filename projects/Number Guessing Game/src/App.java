@@ -21,17 +21,17 @@ public class App {
         int guess = sc.nextInt();
         System.out.println("");
         int tries = 0;
-        if (guess < randomNum) {
-            System.out.println("Too low! Try again.");
-        } else if (guess > randomNum) {
-            System.out.println("Too high! Try again.");
-        } else {
-            System.out.println("Congratulations! You've guessed the number.");
-            System.out.println("It took you " + tries + " tries.");
-        }
 
         while (guess != randomNum) {
             tries++;
+            if (guess < randomNum) {
+                System.out.println("Too low! Try again.");
+            } else if (guess > randomNum) {
+                System.out.println("Too high! Try again.");
+            } else {
+                System.out.println("Congratulations! You've guessed the number.");
+                System.out.println("It took you " + tries + " tries.");
+            }
             System.out.println("!!!.Wrong guess.!!!");
             System.out.println("Guess again!  ");
             guess = sc.nextInt();
