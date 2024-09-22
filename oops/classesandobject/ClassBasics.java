@@ -1,35 +1,47 @@
-package oops.classesandobject;
-
 public class ClassBasics {
-    public static void main(String[] args) {
-        Address address = new Address();
-        address.location = "Baharana";
-        address.pin = 754108;
+	int x = 5;
 
-        Person person = new Person(20, "Mousumi", address);
+    	public static void main(String... args){
+		Car c1 = new Car("BMW","Second",3);
+		c1.display();
+		
+	}
+}
+class Car{
+	String name;
+	String wheelType;
+	int year;
+	
+	Car(){
+	}
+	Car(int year){
+		this.year = year;
+	}
+	Car(String name){
+		this.name = name;
+		System.out.println("From constructor 3");
+	}
+	Car(String name,String wheelType){
+		this(name);
+		this.wheelType = wheelType;
+		System.out.println("From consturctor 4");
+	}
+	Car(String name,String wheelType,int year){
+		this(name,wheelType);
+		this.year = year;
+		System.out.println("From consturctor 5");
+	}
 
-        System.out.println(person.age);
-        System.out.println(person.name);
-        System.out.println(person.address.location);
-        System.out.println(person.address.pin);
+	void startEngine(){
+		System.out.println("Starting Engine");
+	}
 
-    }
+	void display(){
+		System.out.println(name);
+		System.out.println(wheelType);
+		System.out.println(year);
+	}
+
+	
 }
 
-class Person {
-    int age;
-    String name;
-    Address address;
-
-    Person(int age, String name, Address address) {
-        this.age = age;
-        this.name = name;
-        this.address = address;
-    }
-
-}
-
-class Address {
-    String location;
-    int pin;
-}
