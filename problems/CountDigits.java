@@ -5,9 +5,10 @@ public class CountDigits {
         int n = Integer.parseInt(System.console().readLine());
 
         int count = 0;
-        while (n != 0) {
+        for (int i = 0; i < n; i++) {
             count++;
             n /= 10;
+            
         }
         System.out.println(count);
     }
