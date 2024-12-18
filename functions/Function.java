@@ -131,7 +131,7 @@ public class Function {
     // System.out.println("inside function " + a);
     // }
 
-    // private static int getSum(int i, int j) {
-    // return i + j;
-    // }
+    private static int getSum(int i, int j) {
+        return i + j;
+    }
 }
